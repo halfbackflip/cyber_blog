@@ -23,7 +23,7 @@ Who knows what could happen?
 Here is a diagram of the virtual environment I will be using. This will change as I progress. I have setup a Nat Network of 10.0.2.0/24 within VirtualBox, this will place the
 VMs on their own segmented network while still being NAT'd out to my real network. Refer to the VirtualBox documentation [here](https://www.virtualbox.org/manual/ch01.html#globalsettings) for setting up a NAT network. 
 
-![Lab Diagram](/assets/img/labdiagram.png)
+![Lab Diagram](../assets/img/labdiagram.png)
 
 ## Required Software
 
