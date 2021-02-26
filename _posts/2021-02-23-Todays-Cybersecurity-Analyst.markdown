@@ -3,7 +3,7 @@ layout: post
 title:  "Today's Cybersecurity Analyst"
 date:   2021-02-23 05:58:00 +1100
 categories: cysa 
-# permalink: /:categories/:title
+permalink: /:categories/:title
 published: true
 ---
 
