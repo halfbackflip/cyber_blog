@@ -1,6 +1,7 @@
 ---
 layout: "page"
 title: Glossary
+permalink: /glossary
 ---
 
 This page tracks all the terms, acronyms and tech slang I run across.

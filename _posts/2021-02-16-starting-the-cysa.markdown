@@ -3,7 +3,7 @@ layout: post
 title:  "Starting the CYSA"
 date:   2021-02-19 05:58:00 +1100
 categories: cysa 
-permalink: /:categories/:title
+# permalink: /:categories/:title
 published: true
 ---
 
