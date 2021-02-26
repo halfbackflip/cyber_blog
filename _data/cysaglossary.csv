@@ -1,0 +1,33 @@
+Term,Definition
+GAPP,"Generally Accepted Privacy Principles -- 1. Management 2. Notice 3. Choice and consent 4. Collection 5. Use, retention and disposal 6. Access 7. Disclosure 8. Security 9. Quality 10. Moniotring and Performance"
+802.1x,Fill Later
+Accidental Threats,A mistaken action that undermines security
+Adversarial Threats,Actors attempting to undermine security
+Agent-Based,Fill Later
+Agentless,Fill Later
+Code Detonation,Sandboxes malicious code and marks it for review
+Cybersecurity Objectives,Confidentiality Integrity Availability
+DAC,Discretionary Access Control -- The owner of a file or resource controls the permissions of resources and can delegate them at their discertion
+Decomposition,Reverse engineers start with the finished product and work their way back to component parts
+DNS Sinkhole,Feed false info to malicious software that enters an enterprise network
+Environmental Threats,Natural or man-made disasters occur which are out of the scope of control
+GPO,Group Policy Object -- MS AD mechanism which allow admins to configure security policies to several users at once
+Honeypot,Decoy network device -- simulates a successful attack then monitors the attack to learn more about their intentions
+In-Band NAC,Fill Later
+MAC,Mandatory Access Control -- An environment where admins set all security permisions and users cannot modify them
+NAC,Network Access Control -- Main goals are to limit network access and ensure systems on the network meet security requirements
+NAC Criteria,Citeria can include Time of day Role Location and System Health
+NGFW,Next Gen FW -- Incorporate additional contextual info such as users and applications into filtering
+Out-of-Band NAC,Fill Later
+Packet Filtering FW,Rudimentary FW that simply check the characteristcs of each packet without additiona intelligence
+Penetration Testing Phases,NIST divides penetration testing into four phases -- 1. Planning 2. Discovery 3. Attack 4. Reporting
+Reverse Engineering,Working backward from a finished product in order to discover how it works
+Risk,A combination of a thread and a vulnerability
+Sandbox,Isolated environment where a malicious application does not have access to other systems
+Sateful FW,In addition to packets; maintain the state of connenctions going through the FW
+SCCM,Microsoft System Center Configuration Manager -- Allows admins to view the patch status of systems and remediate them
+Structural Threats,Equipment software or environmental systems failure 
+Threat,External actor who may exploit a vulnerability
+Triple Homed,A standard network architecture which connects to the internet a DMZ and internal network 
+Vulnerability,Weakness in a system which could allow an attack to take place
+WAF,FW Designed for protection against Web Application attacks
