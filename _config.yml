@@ -31,9 +31,9 @@ description: >- # this means to ignore newlines until "baseurl:"
 # baseurl: "/cyber_blog" # the subpath of your site, e.g. /blog
 
 # baseurl for upload to github
-baseurl: "cyber_blog" # the subpath of your site, e.g. /blog
+baseurl: "/cyber_blog" # the subpath of your site, e.g. /blog
 
-url: "http://edgethoughts.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.edgethoughts.com/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
