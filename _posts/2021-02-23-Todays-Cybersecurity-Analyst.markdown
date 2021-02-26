@@ -35,7 +35,7 @@ file and printer sharing for systems on the same network are allowed.
 
 8. Here is a sample screenshot. Magic!
 
-![Lab Diagram](\cyber_blog\assets\img\File and printer sharing 3.jpg)
+![Lab Diagram](\assets\img\File and printer sharing 3.jpg)
 
 ## Activity 1.2: Create a Group Policy Object
 
@@ -50,13 +50,13 @@ policy. I currently have a domain running called "forestcity.com." You will need
 
 4. Right click the group policy objects > New
 
-![Group Policy Object](\cyber_blog\assets\img\gpo.jpg)
+![Group Policy Object](\assets\img\gpo.jpg)
 
 5. Name the policy "Password Policy" > Click "Ok"
 
 6. Expand the following folders > Policies > Windows Settings > Security Settings > Account Policies
 
-![Group Policy Object](\cyber_blog\assets\img\gpo2.jpg)
+![Group Policy Object](\assets\img\gpo2.jpg)
 
 7. Click the Password Policy
 
@@ -74,7 +74,7 @@ policy. I currently have a domain running called "forestcity.com." You will need
 
 14. The policy should appear as per below. It can now be applied to users, groups or displayed as a trophy for our secure infraastructure. 
 
-![Group Policy Object](\cyber_blog\assets\img\gpo3.jpg)
+![Group Policy Object](\assets\img\gpo3.jpg)
 
 15. Finally, if we want to automate this... [maybe start here?](https://docs.microsoft.com/en-us/powershell/module/grouppolicy/new-gpo?view=win10-ps)
 
@@ -86,7 +86,7 @@ Now, of course I will not actually do this. But this is what a plan might look l
 The general standard for conducting a penetration test is contained in the [NIST SP 800-115: Technical Guide to
 Information Security Testing and Assessment](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-115.pdf). NIST divides Penetration testing into the following phases:
 
-![NIST Pen Testing Four Phases](\cyber_blog\assets\img\nistpentesting.jpg)
+![NIST Pen Testing Four Phases](\assets\img\nistpentesting.jpg)
 
 I will follow these four phases as per below, using a fictional company which I invented myself.
 This fictional company comes straight from my brain.  
@@ -151,38 +151,3 @@ Post reporting will be delivered one week after the test. The following informat
 * Overall assessment of the comapny's security posture
 * Reccomendations to improve security
 * Final conclusions
-
-
-<!-- ## Welcome! 
-
-This is the first of a series of posts on my journey to pass the [CompTIA CySA+](https://www.comptia.org/certifications/cybersecurity-analyst).
-I plan on taking my time and working through the material at a slow place. Sure, I could 
-cram and pass the test in a few weeks... but would the certificate have any value if I lacked any of the knowledge associated with it?
-
-These posts will focus on me completing the various lab excercises in this book [CompTIA CySA+ Study Guide](https://www.amazon.com.au/CompTIA-CySA-Study-Guide-CS0-001/dp/1119348978)
-If you are using these posts as a guide to your own studies, I will assume that you have fundamental knowledge about networking, virtual machines and security. 
-
-I will also add a glossary of terms and some miscellaneous cloud/security/IT ramblings.
-Who knows what could happen? 
-
-## Lab Setup
-
-Here is a diagram of the initial virtual environment I will be using. This will change. I have setup a Nat Network of 10.0.2.0/24 within VirtualBox, this will place the
-VMs on their own segmented network while still being NAT'd out to my real network. Refer to the VirtualBox documentation [here](https://www.virtualbox.org/manual/ch01.html#globalsettings) for setting up a NAT network. 
-
-![Lab Diagram](/cyber_blog/assets/img/labdiagram.png)
-
-## Required Software
-
-Here are links for the main components of this architecture setup. Keep mind this can also
-be run on VMWare, HyperV or in your own closet.
-
-* [VirtualBox](https://www.virtualbox.org/wiki/Downloads) - Type 2 Hypervisor software.
-
-* [Kali Linux VirtualBox Image](https://www.offensive-security.com/ kali-linux-vm-vmware-virtualbox-image-download/) - Some kind of Linux security people use.
-
-* [Metasploitable](https://sourceforge.net/projects/metasploitable/) - An intentionally vulnerable Linux virtual machine.
-
-* [Windows Server 2019](https://www.microsoft.com/en-AU/windows-server/trial) - For testing Windows vulnerabilities.
-
-Thats it. Now off we go.  -->
