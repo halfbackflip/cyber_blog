@@ -122,7 +122,7 @@ During the discovery phase, the penetration testing team will gather information
 
 ##### Network
 
-Network recon will be the first step of the discovery phase. The penetration testing team will leverage port scanning, network traffic sniffing, exploits on network equipment in order to develop a layout of the company's network. Further recon on systems, users and applications wil be performed based on this layout.
+Network recon will be the first step of the discovery phase. The penetration testing team will leverage port scanning, network traffic sniffing, exploits on network equipment in order to develop a layout of the company's network. Further recon on systems, users and applications will be performed based on this layout.
 
 ##### Systems
 
@@ -134,7 +134,8 @@ Key employees in the organisation will be identified and ranked according to the
 
 ##### Application
 
-Key IT infraastruce running the company's SaaS will be identified for additional reconaissance. This includes the database, front-facing web servers, jump boxes, firewalls, WAFs and so on.
+Key IT infraastruce running the company's SaaS will be identified for additional reconaissance. This includes the database, front-facing web servers, jump boxes, firewalls, WAFs and so on. Non-intrusive scanning will be performed regardless of time-frame, whereas intrusive scanning will be limited to after business hours in order to avoid potential
+disruption.
 
 #### Attack
 
@@ -149,5 +150,21 @@ Post reporting will be delivered one week after the test. The following informat
 * Breakdown of attack methodology
 * Quantitative and qualitative review of attack success
 * Overall assessment of the comapny's security posture
+* Discussion and interviews on company response to attack
+* Review of documentation and logs
+* Review of firewall and router access controls
 * Reccomendations to improve security
 * Final conclusions
+
+## Glossary
+
+A glossary of all the terms, acronyms and slang I run across for this chapter.
+
+<table>
+{% for item in site.data.todayscybersecurityanalyst %}
+    <tr>
+        <td>{{item.Term}}</td> 
+        <td>{{item.Definition}}</td>
+    </tr>
+{% endfor %}
+</table>
