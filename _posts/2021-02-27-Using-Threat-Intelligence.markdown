@@ -10,7 +10,7 @@ published: true
 ## Activity 2.1 Explore the ATT&CK Framework
 
 In this activity I will analyze a threat using the [MITRE ATT&CK framework](https://attack.mitre.org/). For this
-example, I will used the 2019 Capital One Data Breach.
+example, I will use the 2019 Capital One Data Breach.
 
 ### Threat Profile
 
@@ -79,11 +79,11 @@ This diagram breaks down the approximate timeline the attacker followed when exf
 
 
 ### Sources
-http://web.mit.edu/smadnick/www/wp/2020-16.pdf
-https://krebsonsecurity.com/2019/08/what-we-can-learn-from-the-capital-one-hack/
-https://www.zdnet.com/article/100-million-americans-and-6-million-canadians-caught-up-in-capital-one-breach/
-https://www.capitalone.com/about/newsroom/capital-one-announces-data-security-incident/
-https://www.justice.gov/usao-wdwa/pr/seattle-tech-worker-arrested-data-theft-involving-large-financial-services-company
+(http://web.mit.edu/smadnick/www/wp/2020-16.pdf)
+(https://krebsonsecurity.com/2019/08/what-we-can-learn-from-the-capital-one-hack/)
+(https://www.zdnet.com/article/100-million-americans-and-6-million-canadians-caught-up-in-capital-one-breach/)
+(https://www.capitalone.com/about/newsroom/capital-one-announces-data-security-incident/)
+(https://www.justice.gov/usao-wdwa/pr/seattle-tech-worker-arrested-data-theft-involving-large-financial-services-company)
 
 ## Activity 2.2 Set Up a STIX/TAXII Feed
 
@@ -105,7 +105,7 @@ check that the network adapter is set to Bridged. Start the VM.
 
 Reset the password as prompted.
 
-![Anomali Password Change](\assets\img\anomali2.jpg)
+![Anomali Password Change](\assets\img\anomali2.PNG)
 
 Once logged in, use the following command to change your timezone.
 
@@ -128,7 +128,7 @@ After that, set your own password -- and you are good to go.
 2. After logging in, agree use the Limo service to gather data for your first threat feeds.
 The dashboard will then begin to populate with threat feeds!
 
-![Anomali Limo Accept](\assets\img\anomali2.jpg)
+![Anomali Limo Accept](\assets\img\anomali3.jpg)
 
 
 ## Glossary
