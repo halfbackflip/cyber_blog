@@ -30,9 +30,9 @@ The following is a mapping of the above threat profile to the MITRE ATT&CK frame
 <table>
 
     <tr>
-        <td>Stage</td> 
-        <td>Step of the attack</td>
-        <td>ATT&CK</td>
+        <td><b>Stage</b></td> 
+        <td><b>Step of the attack</b></td>
+        <td><b>ATT&CK</b></td>
     </tr>
 
     <tr>
@@ -77,13 +77,12 @@ This diagram breaks down the approximate timeline the attacker followed when exf
 
 ![Cap One Timeline](\assets\img\capone-timeline.png)
 
-
 ### Sources
-(http://web.mit.edu/smadnick/www/wp/2020-16.pdf)
-(https://krebsonsecurity.com/2019/08/what-we-can-learn-from-the-capital-one-hack/)
-(https://www.zdnet.com/article/100-million-americans-and-6-million-canadians-caught-up-in-capital-one-breach/)
-(https://www.capitalone.com/about/newsroom/capital-one-announces-data-security-incident/)
-(https://www.justice.gov/usao-wdwa/pr/seattle-tech-worker-arrested-data-theft-involving-large-financial-services-company)
+[http://web.mit.edu/smadnick/www/wp/2020-16.pdf](http://web.mit.edu/smadnick/www/wp/2020-16.pdf)
+[https://krebsonsecurity.com/2019/08/what-we-can-learn-from-the-capital-one-hack/](https://krebsonsecurity.com/2019/08/what-we-can-learn-from-the-capital-one-hack/)
+[https://www.zdnet.com/article/100-million-americans-and-6-million-canadians-caught-up-in-capital-one-breach/](https://www.zdnet.com/article/100-million-americans-and-6-million-canadians-caught-up-in-capital-one-breach/)
+[https://www.capitalone.com/about/newsroom/capital-one-announces-data-security-incident/](https://www.capitalone.com/about/newsroom/capital-one-announces-data-security-incident/)
+[https://www.justice.gov/usao-wdwa/pr/seattle-tech-worker-arrested-data-theft-involving-large-financial-services-company](https://www.justice.gov/usao-wdwa/pr/seattle-tech-worker-arrested-data-theft-involving-large-financial-services-company)
 
 ## Activity 2.2 Set Up a STIX/TAXII Feed
 
