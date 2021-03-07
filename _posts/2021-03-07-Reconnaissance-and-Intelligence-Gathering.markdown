@@ -17,13 +17,13 @@ Metasploitable: 10.0.2.4
 Kali Linux: 10.0.2.15
 
 Performing a simple port scan is... quite simple. 
-`nmap 10.0.2.4`
+<br>`nmap 10.0.2.4`
 
 The result is as follows. Oh my, look at all these exposed ports! 
 ![Nmap Output](\assets\img\nmap.jpg)
 
 This is just a quick scan, we can also use nmap to scan ALL open ports and determine the operationg system. This will command will need to be with administrator permissions.
-`nmap 10.0.2.4 -O -p 1-65535`
+<br>`nmap 10.0.2.4 -O -p 1-65535`
 
 Note the difference in the results below. The full scan adds a section below determining the OS type of the target and additional ports were scanned. 
 ![Nmap Output2](\assets\img\nmap2.jpg)
@@ -32,7 +32,7 @@ It is also worth exploring some additional options with nmap. We can re-run our 
 ![Nmap Output3](\assets\img\nmap3.jpg)
 
 In several situations you may need at output file for further anaylsis or to put into another script. Adding the "oA" option will output to .nmap, .xml and .gmap formats at once.
-`nmap 10.0.2.4 -oA`
+<br>`nmap 10.0.2.4 -oA`
 
 ## Activity 3.2: Write an Intelligence Gathering Plan
 
