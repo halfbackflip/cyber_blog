@@ -1,0 +1,23 @@
+Term,Definition
+Active Reconnaissance,"Uses deliberate techniques, i.e. scanning tools in order to perform host enumerations"
+Anomaly Analysis,Looks for differences in expected behaviors
+Creepy,Geolocation tool tha uses social media info and file metadata to build a profile about a person
+Dhcpd.conf,linxu system file displaying dhcp config info
+Heuristic Analysis,Detects threats based on behavior patterns
+Host Enumeration,Creating a map of an organisation's networks and IT systems
+Hping,Advanced version of the ping utility which allows for the customization of echo requests
+IANA,Manages both the global IP address space and DNS Root Zone which assigns gTLDs and ccTLDs
+Netflow,Cisco network protocol that collects IP traffic information; not as detailed as packet analysis.
+Netstat,Command to provide local host network information
+Nslookup -query=mx microsoft.com,Queries the mx records of microsoft.com
+Operating System Fingerprinting,The ability to identify an OS based on the network traffic it sends
+Passive Reconnaissance,"Information gathering that relies on using existing data, i.e. logs and documentation, rather than performing active activities"
+Preventing Passive Recon,"Blacklist systems that abuse DNS servcies, CAPTCHA to prevent bots, implment rate limiting on public DNS lookups, do not publish zone files"
+Preventing Recon,"Limit external exposure of services and devices, Use an IPS for detection and stopping scanning, employ monitoring systems"
+Registered Ports,Ports 1024-49151
+Responder,Python script that can be used for both active and pasive scanning
+Signature Analysis,Uses a digital fingerprint or other signature to detect threats
+System ports,Ports 0-1023
+Trend Analysis,Predicts behaviors based on existing data
+Windows Event Log Types,"Application logs, security logs, setup logs, system logs, forwarded event logs"
+Zone transfer,Used to replicate DNS databases between servers; can be used as an infor gathering tool in security.
