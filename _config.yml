@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Edge Thoughts
-email: your-email@example.com
+# email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   A tiny techy blog where I write stuff. 
 
@@ -34,8 +34,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 # baseurl: "cyber_blog" # the subpath of your site, e.g. /blog
 
 url: "https://edgethoughts.com/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+# twitter_username: jekyllrb
+github_username:  halfbackflip
 
 # Build settings
 theme: minima
