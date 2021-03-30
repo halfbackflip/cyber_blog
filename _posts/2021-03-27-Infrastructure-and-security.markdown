@@ -54,7 +54,7 @@ Here is my analysis of the attack surface as presented by the diagram.
         <td>Vulnerable Aspects</td>
     </tr>
     <tr>
-        <td>External</td>
+        <td style="color:white;">External</td>
         <td>
             <ol>
                 <li>Cognito - Password forms vulnerable to brute force, mitm or injection attacks</li>
