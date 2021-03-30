@@ -47,41 +47,38 @@ The architecture is as follows:
 
 ## Initial Analysis
 
-Here my analysis of the attack surface as presented by the diagram.  
-
+Here is my analysis of the attack surface as presented by the diagram.  
 <table>
-<tr>
-    <td>Attack Surface</td>
-    <td>Vulnerable Aspects</td>
-</tr>
-<tr>
-    <td>External</td>
-    <td>
-        <ol>
-            <li>Cognito - Password forms vulnerable to brute force, mitm or injection attacks</li>
-            <li>API GW - Exposed APIs vulnerable to abuse, injection attacks, etc. </li>
-            <li>S3 Bucket - Ensure CORS policy is set, set bucket policy to limit API calls to storage.</li>
-            <li>Cloud9 - AWS console access vulnerable to brute force, injection attacks, mitm credenetial hijacking.</li>
-            <li>Network Load Balancer - Vulnerable to DOS attacks</li>
-        </ol>
-    </td>
-</tr>
-<tr>
-<tr>
-    <td>Internal</td>
-    <td>
-        <ol>
-            <li>CodeCommit - Compromised users or users with high access can insert malicious code into the build.</li>
-            <li>CodeBuild - Tests can be altered to allow malcious code into the build.</li>
-            <li>DynamoDB - Data can be exfiltrated or altered by employees or compromised accounts.</li>
-            <li>Lambda - Malicious code can be inserted into the Lambda function.</li>
-            <li>Kinesis S3 - Data can be exfiltrated or altered by employees or compromised accounts.</li>
-            <li>Fargate - Service can be disabled, deleted or used to exfiltrate incoming data.</li>
-            <li>IAM - Users permissions or roles can be abused. Privelege escalation attacks my be possible.</li>
-        </ol>
-    </td>
-</tr>
-<tr>
+    <tr>
+        <td>Attack Surface</td>
+        <td>Vulnerable Aspects</td>
+    </tr>
+    <tr>
+        <td>External</td>
+        <td>
+            <ol>
+                <li>Cognito - Password forms vulnerable to brute force, mitm or injection attacks</li>
+                <li>API GW - Exposed APIs vulnerable to abuse, injection attacks, etc. </li>
+                <li>S3 Bucket - Ensure CORS policy is set, set bucket policy to limit API calls to storage.</li>
+                <li>Cloud9 - AWS console access vulnerable to brute force, injection attacks, mitm credenetial hijacking.</li>
+                <li>Network Load Balancer - Vulnerable to DOS attacks</li>
+            </ol>
+        </td>
+    </tr>
+    <tr>
+        <td>Internal</td>
+        <td>
+            <ol>
+                <li>CodeCommit - Compromised users or users with high access can insert malicious code into the build.</li>
+                <li>CodeBuild - Tests can be altered to allow malcious code into the build.</li>
+                <li>DynamoDB - Data can be exfiltrated or altered by employees or compromised accounts.</li>
+                <li>Lambda - Malicious code can be inserted into the Lambda function.</li>
+                <li>Kinesis S3 - Data can be exfiltrated or altered by employees or compromised accounts.</li>
+                <li>Fargate - Service can be disabled, deleted or used to exfiltrate incoming data.</li>
+                <li>IAM - Users permissions or roles can be abused. Privelege escalation attacks my be possible.</li>
+            </ol>
+        </td>
+    </tr>
 </table>
 
 ## Scan Results
