@@ -48,7 +48,7 @@ The architecture is as follows:
 ## Initial Analysis
 
 Here is my analysis of the attack surface as presented by the diagram.  
-<table style="background-color": transparent;>
+<table>
     <tr bgcolor="grey" style="color:white;">
         <td>Attack Surface</td>
         <td>Vulnerable Aspects</td>
