@@ -128,7 +128,7 @@ Once the updates are downloaded, I re-run the scan... and it is gone!
 A glossary of all the terms, acronyms and slang I run across for this chapter.
 
 <table>
-{% for item in site.data.analyzingvulnerabilityscans.csvanalyzingvulnerabilityscans %}
+{% for item in site.data.analyzingvulnerabilityscans %}
     <tr>
         <td>{{item.Term}}</td> 
         <td>{{item.Definition}}</td>

@@ -1,0 +1,22 @@
+Term,Definition
+Layered Security,Approach where each layer has additional protections preventing a flaw in another layer from allowing an attacker access
+Zero Trust,Each action request and allowed must be verified before allowing to occur
+Air Gap,Ensuring there is not connection at all between infrastructure\
+SDN,Software Defined Networking; Makes networks programmable and allows for central control of networks
+Containerization,Allows applications to run in their own isolated environments with their own required components
+Asset Management,Knowing what assets you and their current state
+Active Defence,Offensive actions taken to counter adversaries
+Technical Controls,"Firewalls, IDS, IPS, network segmentation, auth and authorization systems."
+Administrative Controls,"Processes and procedures, i.e. incident response plans, account management, change control, configuration management, policies, etc."
+Physical Controls,"Include locks, fences and other controls to limit physical access"
+Preventive Controls,Stops an incident from occurring by taking proactive measures
+Detective Controls,Detect an incident and capture info about it
+Corrective Controls,Remediate incidents and act to limit how much damage can result from the incident
+Layered Host Security,"Applying the following controls on a host can allow layered security on an endpoint:  strong passwords, mfa, host firewalls, data loss prevention, whitelisting or blacklisting apps, AV, Patch management, system hardening, encryption, file integrity monitoring, logging, monitoring"
+Sink holing,Redirecting traffic from its original destination to the destination of your choice
+Operational View,"View which shows how an architecture functions, what it performs and how information flows"
+Technical View,View which focuses on the technical configuration of an architecture
+Logical View,View which describes how systems interconnect
+CIP,Continual Improvement Process
+Data Loss Prevention,System that scans outbound traffic and prevents it from being transmitted if it contains certain data types
+NAC,Network Access Control; System that validates systems and users before they connect to a network
