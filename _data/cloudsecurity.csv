@@ -4,5 +4,5 @@ scoutsuite,multi cloud auditing tool
 pacu,"cloud-focused exploitation framework, i.e. metasploit for the cloud"
 prowler,AWS cloud security configuration testing tool
 CASB,Cloud Access Security Broker - software tools that serve as intermediaries between cloud service users and cloud service providers
-Inline CASB,Physically or logically reside inbetween the network path of the user and service provider. Allows the CASB to see requests and block them if they violat policy
+Inline CASB,Physically or logically reside inbetween the network path of the user and service provider. Allows the CASB to see requests and block them if they violate policy
 API based CASB,Do not interaact directly with the user but interact with the cloud provider through their API; does not require a hardware or logical middleman but does not allow policy enforcement

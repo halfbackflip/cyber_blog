@@ -1,0 +1,39 @@
+Term,Definition
+Directory,"Centralized repository of names, address, title, email, contact info, principal name, etc for auth purposes."
+Privilege Management,Ongoing management of user rights to perform actions or gain access to systems
+IAM systems,Identity and access management systems allow for central management of user info
+Directory Services,"AD, LDAP, provide info about systems, users and other info."
+TACAS+,Uses TCP to provide AAA services for network devices; suffers from several security flaws and should only be used on isolated networks
+RADIUS,"Can operate via TCP or UDP, provides AAA for network devices, wireless and other services."
+Kerberos,"AAA service designed to operate on untrusted networks, separates untrusted networks into realms, key distribution centers and groups of principals"
+OpenID,"Open source standard for decentralized identity, i.e. users create a Gmail account and use that identity to authenticate to other services"
+Oath,Open authorization standard; Uses tokens; Allows users to share elements of their identity or account info while authenticating via the original identity provider
+OpenID Connect,"Authentication layer built using the Oath protocol, often paired with Oauth and allows authorization server to issue an ID token"
+Facebook Connect,Facebook based authentication protocol
+RBAC,"Role Based Access Control - Roles with permissions are assigned to users, groups, systems, etc."
+ABAC,"Attribute Based Access Control - Provides users rights based on policies which are collections of attributes, i.e. job title, responsibilities, position, location, etc."
+MAC,Mandatory Access Control - Rigid; Relies on the OS to control what access and rights a user has; Implemented by a system admin.
+Rule Based AC,Rule Based Access Control - Access based on a set of rules or ACLs set by an admin
+DAC,Discretionary Access Control - Delegates control of resource privileges to admins or owners of protected resources 
+Personnel Security,"Includes training and awareness - faces threats such as phishing, insider attacks and social engineering"
+Server Exploits,Target the systems which run identity services
+KDC,"Key Distribution Centre, centralized key store in Kerberos, hotspot for attackers"
+Common Kerberos Attacks,"KDC attacks, Admin Account Compromise, Kerberos Ticket Reuse, TGT Ticket Granting Server attacks"
+Common Radius Attacks,"Session replay of server responses, Targeting of the RADIUS shared secret, DoS attacks to prevent authentication, Brute-force attack against credentials"
+Common AD Attacks,"Deploying credential capturing malware, credential theft via phishing, privilege escalation attacks, service account compromise, excessive domain admin rights, Group policy attacks"
+Account Lifecycle,"Create an account, Set account permissions, Maintain Account, Disable Account, Retire and delete account"
+Privilege Creep,Steady accrual of privileges and rights over time
+Common Identity and Authorization Exploits,"Impersonation, MitM, Session Hijacking, Privilege Escalation, Rootkits"
+Session Hijacking,Focuses on taking over already existing sessions by acquiring the session key or cookies used by a remote server
+Identity Defence in Depth,Create only valid accounts - Consistent provisioning of accounts - Track accounts to avoid privilege creep - Ensure complete account termination
+Privileged User Management,"The management of administrative and other super user rights, additional monitoring and logging"
+MFA Factors,"Knowledge, possession, biometric, location"
+Context-based authentication,"System which allows authentication decisions to be made based on info about the user, i.e. user group membership, ip address, time of day, location, frequency of access, device-based info, etc."
+IDAAS,"Identity As A Service - Cloud based services which provide directory services, identity life cycle management, sso, privileged account mgmt., reporting, auditing and other mgmt capabilities"
+Federation,The process of connecting an identity and its related attributes between multiple identity management systems
+IDP,Identity Provider - In a federation must provide identities and release info about the identity
+RP,Relying Party - In a federation must provide services to members of the federation
+Consumer,User of federated services - may be asked to make decisions about attribute release and provide validation info about identity claims to the IDP
+Federated Identity Technologies,"SAML, OpenID, OAuth2, ADFS"
+SAML,"Security Assertion Mark-up Language - Used to send authentication and authorization info between identity and service providers in enterprise, Linux-centric environments"
+ADFS,"Active Directory Federation Services - Used to send authentication and authorization info between identity and service providers in enterprise, windows-centric environments"

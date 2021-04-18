@@ -1,0 +1,72 @@
+Term,Definition
+SDLC,Software Development Lifecycle
+Feasibility Phase,Initial investigation to determine whether development should begin. Review existing and available alternatives.
+Analysis and requirements definition phase,Customer input is used to determine the desire functionality; functions are prioritised. 
+Design phase,"Phase where architecture, functionality, integration, techniques, workflows, etc are considered"
+Development phase,The phase where coding happens
+Testing and Integration phase,Formal testing phase with customers or other outside of the development team
+Training and transition phase,"Also called the acceptance, installation and deployment phase - ensures end users are training in the software usage"
+Operation and maintenance phase,"Phase where patching, updating and maintenance occurs. "
+Disposition phase,"The EOL, when the software is disposed of"
+Software environments,"Development, test and production envs"
+Waterfall,"SDLC method where each phase is followed by the next. Relatively inflexible, but used for complex applications"
+Spiral,Uses the linear development concepts from waterfall but adds iterative processes that revisits phases several times; strong emphasis on risk management and review
+Spiral Development Phases,Requirements Gathering > Design > Build >Evaluation
+Agile,SDLC which uses an iterative and incremental process rather than a linear process; 
+Sprint,Short working session in Agile
+Backlogs,Lists of features needed to complete a project
+Planning Poker,Game used to estimate the cost of a project in Agile
+Timeboxing,Previously agreed upon time amount for person to work on a goal
+User stories,Stories which are collected to describe high-level user requirements
+Velocity Tracking,Adds up the estimates of the current sprints effort and then compares it to what was completed
+RAD,Rapid Application Development SDLC Iterative process that focuses on building prototypes
+RAD phases,Business Modelling > Data Modelling > Process Modelling > Application Generation > Testing and Turnover
+Big Bang,SDLC which relies on no planning process - focuses on starting code and determining requirements as the project progresses
+V Model,SDLC which pairs a testing phase with every development phase
+DevOps,Combines software development and IT operations with the goal of optimizing the SDLC - uses a collection of tools called toolchains
+Develops,Integrates security into DevOps where security is a shared responsibility at each stage of development
+CI,Continuous Integration - Check code into a repo often
+CD,Continuous Deployment - Rolls out changes into production as soon as they are committed
+Improper Error Handling,Results in an error message being dumped to the screen - possibly revealing exploitable info
+Dereferencing,Occurs when a pointer has a null reference value - often leads to a crash caused by an error handler
+Insecure Object References,When an app exposes info about internal objects and the backend storage system
+Race Conditions,Allows possible exploits of timing and execution in an application
+Insecure Components,Occurs when a component of an application or service is vulnerable
+Insufficient Logging and Monitoring,"Error which results in being unable to determine what went wrong, etc."
+Weak Default Configurations,When standard configs are weak - like using a default db. password
+strcpy,Insecure function which allows for buffer overflow attacks
+Firmware,Embedded software used by a device. Not all devices are configured to update their firmware. Vulnerable to attack.
+Embedded Systems,Computer systems part of a larger system; smaller lightweight operating systems; less attack surface but more vulnerable.
+Secure coding best practices,"Have a secure coding policy, do risk assessments, perform input validation, check and perform output encoding, setup a WAF, manage error messages, Consider database security, use parameterized queries, secure sensitive info, build for HA, use MFA, monitor and log, secure network traffic, perform cookie management  "
+OWASP Top Application Controls,"Define Security Requirements, Leverage Frameworks, Secure DB, Encode and Escape Data, Validate All Inputs, Implement Digital Identity, Enforce Access Controls, Protect Data Everywhere, Log and Monitor, Handle Errors and Exceptions"
+Insecure Interaction Between Components,"Includes issues such as SQL injection, file upload problems, cross site request forgery, cross site scripting"
+Risky Resource Management ,"Deal with buffer overflows, path traversal attacks and ways software fails to guard resources"
+Porous Defences,"Permissive rights, hard-coded credentials, missing auth and authorization, unsalted hashes"
+Salting,adding random data to the input of a�hash�function to guarantee a unique output
+API,Middleman system between clients and servers - Define how the client should ask for info and how the server show respond - allows programs written in any language to use the API
+SOA,Service Oriented Architecture - provides services to components of a system via network protocols
+REST,Replacement for SOAP - Flexible and allows developers to create their own APIs
+SOAP,Simple Object Access Protocol web services protocol
+Pair programming,Agile technique where one developer writes the code and the other reviews it as they write
+Over the shoulder,Code review technique where the developer explains how the code works to another dev
+Pass Around Review,Code review technique where completed code is sent around to developers for a review
+Tool-assisted review,Code review via software-based tools and automation
+Fagan Inspection,Form of structured code review intended to find problems during the development process
+Fagan Inspection Process,Planning > Overview > Preparation > Meeting > Rework > Follow-up
+Static Code Analysis,Analysing code for problems by reviewing it without actually running it
+Dynamic Code Analysis,Providing inputs to code and running it; Often done with automated testing
+Fuzzing ,Testing which involves sending random or invalid data to an application in order to test it. Can detect input validation and memory issues.
+Mutation Testing,Creating mutant variants of the code with small changes and testing these variants
+Load Testing,Simulates full application load
+Stress Testing,Simulates beyond normal application load
+Security Regression Testing,Testing code after a change or update to ensure now new vulnerabilities have been introduced
+User Acceptance Testing,When users are asked to validate if an application meets business and user requirements.
+Interception Proxies,Capture information between a browser and a web service
+Hardware Root of Trust,Refers to the cryptographic keys which secure the boot process  - meaning the system trusts the hardware
+TPM,"Trusted Platform Module, provides Remote Attestation, Binding aka encryption and Sealing which sets decryption requirements"
+Measured Boot,Measures each component from the firmware to boot drivers - looking for any security issues - these logs can be sent to an admin.
+Secure Processing,The processing and execution environment is secure
+Atomic Execution,When a process both reads and writes a location during the same operation - prevents other processors from reading or writing or tampering during an operation
+Secure Enclaves,"Hardware components which provide cryptographic operations and user authentication, designed to remain secure even if the OS is compromised"
+Self-encrypting devices,Devices with built in encryption which require a key for read and writes
+Bus encryption,"Protects data traveling inside a system, securing data as it flows from one computer component to another"

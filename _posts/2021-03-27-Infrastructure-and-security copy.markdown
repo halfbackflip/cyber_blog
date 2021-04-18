@@ -53,7 +53,7 @@ Here is my analysis of the attack surface as presented by the diagram.
         <td>Attack Surface</td>
         <td>Vulnerable Aspects</td>
     </tr>
-    <tr bgcolor="white">
+    <tr>
         <td>External</td>
         <td>
             <ol>
