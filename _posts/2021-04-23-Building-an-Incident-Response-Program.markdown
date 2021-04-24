@@ -18,31 +18,37 @@ The scope of an incident's impact can be defined as a both the degree of impairm
 
 ### Categorical Ratings
 <table>
-  <tr>
-    <tr>Category</td>
-    <tr>Rating</td>
-    <tr>Justification</td>
+
+  <tr bgcolor="grey" style="color:white;">
+      <td>Category</td>
+      <td>Rating</td>
+      <td>Justification</td>
   </tr>
+
   <tr>
-    <tr>Functional Impact</td>
-    <tr>HIGH</td>
-    <tr>While under DDOS attack, the company has been completely unable to sell their products and provide services to their users.</td>
+    <td>Functional Impact</td>
+    <td>HIGH</td>
+    <td>While under DDOS attack, the company has been completely unable to sell their products and provide services to their users.</td>
   </tr>
+  
   <tr>
-    <tr>Economic Impact</td>
-    <tr>High</td>
-    <tr>As the economic loss is estimated at over 2 million per day, this amount clears the NIST threshold of $500,000 per day. Since the DDOS attack is ongoing with no clear remediation ahead, the company will experience significant losses.</td>
+    <td>Economic Impact</td>
+    <td>High</td>
+    <td>As the economic loss is estimated at over 2 million per day, this amount clears the NIST threshold of $500,000 per day. Since the DDOS attack is ongoing with no clear remediation ahead, the company will experience significant losses.</td>
   </tr>
+
   <tr>
-    <tr>Recoverability Effort</td>
-    <tr>Extended</td>
-    <tr>The time to recover from this attack is not predictable. As in-house capabilities have been exhausted, the company is now searching for a third party provider to assist. Hiring a third party will also increase the costs associated with the incident.</td>
+    <td>Recoverability Effort</td>
+    <td>Extended</td>
+    <td>The time to recover from this attack is not predictable. As in-house capabilities have been exhausted, the company is now searching for a third party provider to assist. Hiring a third party will also increase the costs associated with the incident.</td>
   </tr>
+
   <tr>
-    <tr>Information Impact</td>
-    <tr>None</td>
-    <tr>As the attack is a DDOS attack, availability is the main effected aspect of the business. No information has been exfiltrated at this point.</td>
+    <td>Information Impact</td>
+    <td>None</td>
+    <td>As the attack is a DDOS attack, availability is the main effected aspect of the business. No information has been exfiltrated at this point.</td>
   </tr>
+
 </table>
 
 ## Activity 11.2 Incident Response Phases
