@@ -1,0 +1,23 @@
+Term,Definition
+Security Event,Any observable event relating to a security function
+Security Incident,A serious violation or impending violation of an organisation's computer security policies
+CSIRT,Computer Security Incident Response Team
+Incident Response Process,Preparation > Detection and Analysis > Containment Eradication Recovery > Post Incident Activity
+ Security Event Indicators,"Four major categories of security event indicators: Alerts, Logs, Public Info, Internal People Reporting Issues, file integrity checking software"
+NTP,Network Time Protocol; Syncing Time is Essential for ensuring accurate timestamps across devices
+Procedures,Provide detailed tactical info needed when responding to an incident
+Policy,Provides high level guidance and creates a framework for incident response
+External or Removable Media,NIST Threat Classification - An attack conducted from external storage such as a USB drive
+Attrition,"NIST Threat Classification - Brute force attacks intended to compromise, degrade or destroy"
+Web,NIST Threat Classification - Attacks executed from web based applications such as malicious downloads or XSS
+Email,NIST Threat Classification - Attacks executed in an email via the attachment or body
+Impersonation,NIST Threat Classification - Replacing something benign with something malicious such as MITM or SQL injection
+Improper Usage,NIST Threat Classification - When an authorized user violates the Acceptable Use Policy resulting in a security issue
+Loss or Theft of Equipment,"NIST Threat Classification - Loss of a laptop, smartphone, device or authentication token"
+Unknown,NIST Threat Classification -  An attack of unknown origin
+APT,Advanced Persistent Threat - Highly skilled hackers focused on singular objectives
+Functional Impact,"The degree of impairment an incident causes to an organization, measured on a scale of none, low, medium and high"
+Economic Impact,"The degree an incident causes economic damage. Measured in losses on a scale of none, low, medium and high"
+Recoverability Effort,"NIST Measurement of the time services will be unavailable, measured on a scale of regular, supplemented, extended and not recoverable"
+Datatype,The nature and classification of data effects the incident response
+Impact Categories,"NIST impact categories are defined as none, privacy breach, proprietary breach and integrity loss."

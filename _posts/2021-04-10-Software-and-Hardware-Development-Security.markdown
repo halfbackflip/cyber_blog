@@ -200,7 +200,7 @@ This example also leverages query chainging. Inserting the following query will 
 A glossary of all the terms, acronyms and slang I run across for this chapter.
 
 <table>
-{% for item in site.data.softwareandhardwaredevelopmentsecurity.csv %}
+{% for item in site.data.softwaresecurity %}
     <tr>
         <td>{{item.Term}}</td> 
         <td>{{item.Definition}}</td>

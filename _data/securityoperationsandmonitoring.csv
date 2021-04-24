@@ -1,0 +1,13 @@
+Term,Definition
+organizational impact,the magnitude of harm to an organization as a result of a security incident
+localized impact,the immediate impact of an event as a result of a security incident
+log sources,"firewall, WAF, Proxy, IDS, IPS"
+SOAR,Security Orchestration Automation and Response
+SOAR Components,"Threat and Vulnerability Management, Security Incident Response, Security Operations Automation"
+Disassemblers,Convert machine code into assembly language
+Decompiler,Convert machine code into a high level language
+Packing,Techniques used to obfuscate malware code in order to resist analysis
+UEBA,User Entity and Behavior Analytics - tools used to analyze user behavior and detect anomolaus behavior
+DMARC,Email authentication method which relies on SPF and DKIM.
+SPF,Sender Policy Framework. Email authentication method designed to detect forged addresses.
+DKIM,"Domain Keys Identified Mail, form of email authentication designed to prevents spamming, phishing and spoofing."
