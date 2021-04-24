@@ -1,0 +1,16 @@
+Term,Definition
+STIX, Structured Threat Information Expression -- standardized XML language for sharing threat intel
+TAXII, Trusted Automated Exchange of Indicator Information -- Protocol for cyberthreat info to be shared at the application layer via HTTPS
+OpenIOC, Open Indicators of Compromise -- standardized XML language for sharing threat intel
+Threat Intelligence Cycle, Lifecycle for using threat intelligence -- Requirements Gathering > Data Collection > Analysis > Info Dissemination > Feedback
+ISAC, Information Sharing and Analysis Centers -- organizations in the USA for sharing of threat intel pertaining to a specific industry
+Threat Actor Types, The following are the main threat actor types: 1. Nation-state 2.Organized Crime 3. Hacktivists 4. Insider threats
+STRIDE, Microsoft method for classifying threats -- 1. Spoofing of user identity 2. Tampering 3. Repudiation 4. Information disclosure 5. Denial of service 6. Elevation of privilege
+Threat Modeling, Activity for understanding threats an organization faces. Requires assessing 1. Adversary capability 2. Attack surface 3. Attack vectors 4. Possible attack impact 5. Likelihood of an attack succeeding
+Threat Reputation, Examining a site or IP to determine if it has a history of malicious behaviour
+IOC, Indicators of compromise -- forensic evidence and data that can help identify an attack
+MITRE ATT&K, Adversarial Tactics Techniques and Common Knowledge attack framework
+Diamond Model, Intrusion analysis model focusing on the 1. Core features (adversary + capability + infraastrucre + victim) 2. Meta features 3. Confidence Value and their relationship together
+CVSS, Common Vulnerability Scoring System
+Cyber Kill Chain, Lockheed Martin's seven step process: 1. Recon 2. Weaponization 3. Delivery 4. Exploitation 5. Installation 6. Command and control 7. Actions on Objectives
+Unified Kill Chain, Combination of the Lockheed Martin Cyber Kill Chain and MITRE ATT&K framework -- an 18 phase process

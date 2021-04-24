@@ -47,39 +47,49 @@ The scope of an incident's impact can be defined as a both the degree of impairm
 
 ## Activity 11.2 Incident Response Phases
 In this activity, I will identify the correct phase of the incdent response process which corresponds to the following:
+
 <table>
-  <tr>
-    <tr>Activity</td>
-    <tr>Phase</td>
+
+  <tr bgcolor="grey" style="color:white;">
+    <td>Activity</td>
+    <td>Phase</td>
   </tr>
+
   <tr>
-    <tr>Conducting a lessons learned review session.</td>
-    <tr>Post-incident activity</td>
+    <td>Conducting a lessons learned review session.</td>
+    <td>Post-incident activity</td>
   </tr>
+  
   <tr>
-    <tr>Recieving a report from a staff member about a malware infection.</td>
-    <tr>Detection and analysis</td>
+    <td>Recieving a report from a staff member about a malware infection.</td>
+    <td>Detection and analysis</td>
   </tr>
+
   <tr>
-    <tr>Upgrading a firewall to block a new type of attack.</td>
-    <tr>Preparation</td>
+    <td>Upgrading a firewall to block a new type of attack.</td>
+    <td>Preparation</td>
   </tr>
+
   <tr>
-    <tr>Recovering normal operations after eradicating an incident.</td>
-    <tr>Containment, Eradication, Recovery</td>
+    <td>Recovering normal operations after eradicating an incident.</td>
+    <td>Containment, Eradication, Recovery</td>
   </tr>
+
   <tr>
-    <tr>Identifying the attackers and attacking systems</td>
-    <tr>Containment, Eradication, Recovery</td>
+    <td>Identifying the attackers and attacking systems</td>
+    <td>Containment, Eradication, Recovery</td>
   </tr>
+
   <tr>
-    <tr>Interpreting log entries using a SIEM in order to identify a potential incident</td>
-    <tr>Detection and analysis</td>
+    <td>Interpreting log entries using a SIEM in order to identify a potential incident</td>
+    <td>Detection and analysis</td>
   </tr>
+
   <tr>
-    <tr>Assembling the hardware and software required to conduct an incident investigation</td>
-    <tr>Preparation</td>
+    <td>Assembling the hardware and software required to conduct an incident investigation</td>
+    <td>Preparation</td>
   </tr>
+
 </table>
 
 ## Activity 11.3 Develop an Incident Communications Plan
@@ -147,7 +157,6 @@ develop the correct approach. This initial consideration requires significant in
 the communications department. Finally, once all stakeholders have been informed it is essential to review the effectiveness of the 
 communcations and identify areas for improvement.
 
-### Nature, Timing and Audiences to the internal and external stakeholders to be notified. 
 ## Glossary
 A glossary of all the terms, acronyms and slang I run across for this chapter.
 
