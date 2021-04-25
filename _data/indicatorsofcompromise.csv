@@ -1,16 +1,32 @@
 Term,Definition
-STIX, Structured Threat Information Expression -- standardized XML language for sharing threat intel
-TAXII, Trusted Automated Exchange of Indicator Information -- Protocol for cyberthreat info to be shared at the application layer via HTTPS
-OpenIOC, Open Indicators of Compromise -- standardized XML language for sharing threat intel
-Threat Intelligence Cycle, Lifecycle for using threat intelligence -- Requirements Gathering > Data Collection > Analysis > Info Dissemination > Feedback
-ISAC, Information Sharing and Analysis Centers -- organizations in the USA for sharing of threat intel pertaining to a specific industry
-Threat Actor Types, The following are the main threat actor types: 1. Nation-state 2.Organized Crime 3. Hacktivists 4. Insider threats
-STRIDE, Microsoft method for classifying threats -- 1. Spoofing of user identity 2. Tampering 3. Repudiation 4. Information disclosure 5. Denial of service 6. Elevation of privilege
-Threat Modeling, Activity for understanding threats an organization faces. Requires assessing 1. Adversary capability 2. Attack surface 3. Attack vectors 4. Possible attack impact 5. Likelihood of an attack succeeding
-Threat Reputation, Examining a site or IP to determine if it has a history of malicious behaviour
-IOC, Indicators of compromise -- forensic evidence and data that can help identify an attack
-MITRE ATT&K, Adversarial Tactics Techniques and Common Knowledge attack framework
-Diamond Model, Intrusion analysis model focusing on the 1. Core features (adversary + capability + infraastrucre + victim) 2. Meta features 3. Confidence Value and their relationship together
-CVSS, Common Vulnerability Scoring System
-Cyber Kill Chain, Lockheed Martin's seven step process: 1. Recon 2. Weaponization 3. Delivery 4. Exploitation 5. Installation 6. Command and control 7. Actions on Objectives
-Unified Kill Chain, Combination of the Lockheed Martin Cyber Kill Chain and MITRE ATT&K framework -- an 18 phase process
+Active Network Monitoring,"Reaches out to remote systems to gather data. Gathers data about availability, routes, packet delay/loss and bandwidth. Ping and iPerf are two examples."
+Bandwidth Consumption,Can cause service outages and disruptions of security functions - a serious concern
+Baseline Detection,Aka anomaly detection. Alerts when thresholds are exceeded.
+Beaconing,Heartbeat traffic sent to a hackers command and control server -- usually over http or https
+DDoS,Distributed Denial of Service Attack -- DOS attack which comes from multiple networks simultaneously
+Detecting Malware Techniques,"Central management tools, antimalware tools, software files and blacklisting, application whitelisting."
+df,Linux tool - displays a report of a system's disk usage
+Heuristics,Behaviour based detection. Alerts when strange behaviours are detected.
+Host-related Checking Techniques,"Processor monitoring, Memory monitoring, Drive capacity monitoring, filesystem changes and anomalies"
+iPerf,Measures max BW that an IP Network can handle. Allows remote testing of link BW in addition to internal BW testing. Useful for establishing a network baseline.
+Linux Services,"Managed by running service --status-all and by checking ""/etc/init.d/service name/ status"""
+Malicious Scheduled Tasks,Check cron in Linux and task scheduler in windows
+Memory Leak,Occurs when a program does not release its memory even after it is no longer being used - this will result in increased consumption until the program crashes
+Passive Monitoring,"Captures network data as traffic passes along a location on a network, such as collecting tap data.  V"
+perfmon,Windows performance monitoring utility - best for more detailed graphing
+Potentially Malicious Windows Tools,"cmd.exe, at.exe, schtasks.exe, wmic.exe, powershell.exe, net.exe, reg.exe, sc.exe"
+Protocol Analysis,Captures packets and looks for unexpected traffic types in order to detect an attacker
+PRTG,"Paessler Router Traffic Grapher, tool which provides packet sniffing, flows, SNMP and WMI"
+ps,Linux tool - provides cpu and mem utilisation
+Registry Run Keys,"Located at: HKEY_LOCAL_MACHINE, HKEY_CURRENT_USER"
+resmon,Windows Resource Monitoring utility - best for checking basic metrics
+Rogue  Checking Techniques,"Valid MAC address checking, MAC address vendor checking, Network Scanning, Site Surveys, Traffic Analysis"
+Rogue Devices,An unwanted device connected to your network
+Router-based Monitoring,"Available options include Netflow, RMON, SNMP"
+SCOM,System Center Operations Manager - Windows monitoring tool
+sysinternals,Additional advanced windows monitoring tools
+top,Linux tool - provides cpu and mem utilisation along with stats about processes
+w,Linux tool - indicates which accounts are logged in
+Windows Services,Managed in services.msc
+Wire Rogue Checking Techniques,MAC Port Security or Network Access Control can prevent this
+WMI,Windows Management Instrumentation

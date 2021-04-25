@@ -1,0 +1,26 @@
+Term,Definition
+Forensic Toolkit Components,"Digital forensics workstation, forensic investigation software, write blockers, drive duplicators, wiped drives, cables, camera, labels, notebooks, chain of custody forms"
+Common Forensic Software,"FTK, EnCase, CAINE, Autopsy, SIFT, DumpIt, Memoryze, dd, WinDbg"
+Slack Space,"Space leftover when a file is written, can contain fragments of previous files or hidden files."
+File Carving,Tools which look at data on a block-by-block basis and attempt to recover data
+Legal hold,States information must be retrained for a legal case
+Hashing,Used to validate that drive data has not changed
+Binary,"Any executable file, i.e. non-text file"
+Volatility,Open source memory forensics tool
+Advanced Office Password Recovery,Utility for recovering passwords
+Order of volatility,"Refers to how easy data is to lose. The order of volatility is 1. CPU cache, registers, running processes, RAM 2. Network Traffic 3. Disk Drives 4. Backups, Printouts, Optical Media"
+Windows Registry,"Provides info about files and services, locations of deleted files, evidence of applications being run"
+Autorun Keys,Lists programs set to run at startup
+MFT,Master File Table; details of inactive and removed records
+Event logs,"Logins, service start/stop, evidence of applications being run"
+INDX files and change logs,"Evidence of deleted files, MAC timestamps"
+Volume Shadow Copies,Point-in-time info from prior actions
+User Directories and files,Logged-in user artifacts
+Hibernation Files or Memory Dumps,Memory artificats of commands run
+Temp Directories,"Artifacts of software installation, user temp file storage, limited lifespan data"
+dd,Linux utility used to lone drives in RAW format
+Write blocker,Attach to a drive to prevent forensic software from writing to it and ruining drive integrity
+USB Historian,Tracks the history of USB drives connected to a system
+md5sum,Hash used to determine if a drive is forensically sound
+FTK,Full featured forensics suite
+WinDbg,Tool used to review Windows memory dumps
