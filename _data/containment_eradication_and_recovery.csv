@@ -1,0 +1,14 @@
+Term,Definition
+Containment,Designed to isolate the incident and prevent spread
+Incident Response,"Consists of the stages of: 1.Preparation 2. Detection and Analysis 3. Containment, Eradication and Recovery 4. Post Incident Activity"
+Network Segmentation,Proactive strategy designed to divide parts of the network
+Isolating Affected Systems,"Affected systems are disconnected from the rest of the network, only internet access is allowed."
+Isolating the Attacker,Uses sandbox systems of no value to monitor the attacker and collect information
+Removal,"Strongest containmetn response. Completely disconnecting the effected network, even from the internet."
+Dead Mans Switch,Tactic which prevents removal by adding scripts in malware which ping outbound to a host
+Eradication,"Remove all artifacts and traces of an attack, i.e. removing any leftover malicious code and sanitizing storage."
+Recovery,Restoring normal operations while increasing reselience against future attacks
+Clear,"Media disposal technique - Applies logical, software techniques to write over and sanitize data"
+Purge,"Media disposal technique - Applies logical and physical tecniques such as degaussing, overwriting and block erase"
+Destory,"Media disposal technique - Results in the inability to use the media in future storage, include pulverization, incerneration, melting, etc."
+Incident Recovery Validation,Perform the following actions: 1. Check only authorized user accounts exist. 2. Confirm the accounts have the correct permissions 3. Verify all systems are logging properly 4. Conduct vulnerability scans
