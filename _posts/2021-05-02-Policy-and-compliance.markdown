@@ -47,7 +47,7 @@ In this excercise, select a specific category and then subcategory. Below is a b
 
 <table>
 <tbody>
-  <tr bgcolor="grey" style="color:white;">
+  <tr bgcolor="black" style="color:white;">
     <th>Function</th>
     <th>Category</th>
     <th>Subcategory</th>
