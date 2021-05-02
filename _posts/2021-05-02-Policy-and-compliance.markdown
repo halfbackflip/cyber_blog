@@ -46,8 +46,8 @@ The framework then breaks these outcomes into categories and subcategories while
 In this excercise, select a specific category and then subcategory. I will then analyze how a fictitious employer addresses these subcategories.
 
 <table>
-<thead>
-  <tr bgcolor="grey" style="color:white;">
+<thead bgcolor="grey" style="color:white;">
+  <tr>
     <th>Function</th>
     <th>Category</th>
     <th>Subcategory</th>
