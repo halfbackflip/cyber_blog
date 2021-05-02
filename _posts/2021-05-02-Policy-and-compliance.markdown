@@ -43,18 +43,16 @@ This framework is designed to provide a structuted approach when reviewing an ex
 The framework then breaks these outcomes into categories and subcategories while providing the titles of relevant reference documents.
 ![Risk Management](\assets\img\framework.jpg)
 
-In this excercise, select a specific category and then subcategory. I will then analyze how a fictitious employer addresses these subcategories.
+In this excercise, select a specific category and then subcategory. Below is a breakdown of how an organization could addresses these subcategories.
 
 <table>
-<thead bgcolor="grey" style="color:white;">
-  <tr>
+<tbody>
+  <tr bgcolor="grey" style="color:white;">
     <th>Function</th>
     <th>Category</th>
     <th>Subcategory</th>
     <th>Implementation</th>
   </tr>
-</thead>
-<tbody>
   <tr>
     <td bgcolor="Indigo" style="color:white;" rowspan="5">PROTECT (PR)</td>
     <td rowspan="5">Awareness and Training (PR.AT): The organization’s personnel and partners are 
