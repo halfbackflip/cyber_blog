@@ -1,0 +1,41 @@
+Term,Definition
+ERM,Enterprise Risk Management
+Threat,"Possible event which may have an effect on Confidentiality, Integrity or Availability"
+Vulnerabilities,Weakenesses in systems which could be exploited by a threat
+Risk,The combination of a threat and a vulnerability
+Risk Identification,Identifying the risks and vulnerabilities which exist in your environment
+Probability,The likelihood the risk will occur
+Magnitude,The impact the risk will have on the organization if it does occur
+Risk Formula,Risk Severity = Probability  * Magnitude
+BIA,Business Impact Analysis - Formalized approach to risk analysis.
+Quantitative Risk Analysis,User numeric data to assess risk
+Qualitative Risk Analysis,Use subjective judgements and categories to assess risk
+ARO,Annualized Rate of Occurrence; The likelihood an event will occurr in a given year
+EF,"Exposure Factor - The amount of damage, percent of an assest to be damaged if a risk occurrs"
+SLE,Single Loss Expectancy - The amount of damage expected each time a risk happens
+ALE,Annualized Loss Expectancy - Amount of damage expected from a risk every year. Multiply the SLE and ARO
+Risk Management,Process of addressing risks that face an organization; Seeks to prioritize risks with high probability and magnited; Also determines if the potenital impact of the risk justifies a certain amount of spending
+Risk Mitigation,The process of applying security controls to reduce the probability and magnitude of a risk - most commone approach towards risk management
+Risk Avoidance,Risk management strategy where business practices are changed to eliminate a risk - may result in unrealistic sacrifices
+Risk Transference,Shifts some of the risk impact from the organization to another entity
+Risk Acceptance,Deliberately accepting a risk after thorough consideration. May be warranted if the cost of mitigation is higher than the risk itself.
+Data Ownership,Policy where specific senior executives are designated as owners of different data types and must work with other experts to manage/protect the data
+Information Classification,Top Secret > Secret > Confidential > Unclassified; Data classification allows organizations to clearly specify the security controls required to protect information
+Data Minimization,Strategy where an organization collects the minimum amount of data to meet their business needs
+Purpose Limitation,Data should only be used for the original purpose it was collected for and that was conseted to by the data subjects
+Data retention,Adopt standards that guide the end of the of the lifecycle - data should only be kept for as long as remains necessarry to fulfill its original colletion purpose
+Data Sovergeignty ,"data is subject to the legal restrictions of any jurisdiction where it is collected, stored or processed"
+Red Team,Attackers who attempt to gain access
+Blue Team,Defenders who attempt to stop the attackers
+White Team,Observers and judges of the exercise
+NDA,Non-disclosure agreement
+DLP,Data Loss Prevention; Systems which help organizations enforce inof handling policeis and procedure or prevent the loss or theft of data.
+Host-based DLP,Uses agents on systems to detect sensitive info
+Network-based DLP,"Dedicated devices that sit on the network and monitor outbound traffic, checking for the exfiltration of data."
+Watermarking,Applying electronic tags to sensitive data so it is recognized by DLP systems
+Pattern Matching,DLP systems whtat watch for specific sinds of sensitive data
+Deidentification,Removing the ability to lind data back to an individual
+Data Obfucscation,Changing data into a format where the original cannot be retrieved
+Data Obfucscation Methods,"Hashing, Tokenization, Masking"
+Tokenization,Replacing sensitive values with a unique identifier using a lookup table
+Masking,Partially redacting sensitive info

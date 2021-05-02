@@ -18,7 +18,7 @@ In this section I have re-diagrammed the 3 main incident containment options.
 ![Removal](\assets\img\removal.png) 
 
 ## Activity 14.2 Incident Response Activities
-Comptia categorizes incident response activities as the following:
+Comptia categorizes incident response activities as the following:    
 1. Containment: Containing the damage of the attack 
 2. Eradication: Removing the attacker, all artifacts and malicious code caused by the attack.
 3. Validation: Confirming the success of eradication.

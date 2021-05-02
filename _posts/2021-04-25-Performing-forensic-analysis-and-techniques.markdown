@@ -35,8 +35,11 @@ Breaking down each part of the command:
 10. Now I will create an md5 checksum of the clone. 
 ![Forensics](\assets\img\forensics7.jpg)
 11. Last, I will compare md5 checksums the clone and original in order to cerify the integrity of the forensic copy.
-`more excercise7_1_clone.md5 `
-`more excercise7_1_original.md5 `
+```
+more excercise7_1_clone.md5 
+more excercise7_1_original.md5
+```
+
 
 ## Activity 13.2 Conduct the NIST Rhino Hunt
 In this excercise we will go on the great NIST Rhino Hunt. 

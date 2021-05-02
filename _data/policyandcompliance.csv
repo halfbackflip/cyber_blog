@@ -1,0 +1,34 @@
+Term,Definition
+Policies,"Highest-level statements of management intent, compliance is mandatory, contains general statements regarding cybersecurity objectives"
+AUP,Acceptable Use Policy
+Data Ownership Policy,States the ownership of info or data created by the organisation
+Data Retention Policy,Outlines what info the organization will maintain
+Account Management Policy,"Describes the account lifecycle policy from onboarding, active use to decommissioning"
+Password Policy,Sets password policy requirements
+Continuous Monitoring Policy,Describes the organizations approach to monitoring and disclosing to members how their data is monitored
+Code of conduct,Describes expected behaviour of employees and affiliates
+Information Security Policy,Provides high-level authority and guidance for the security program
+Standards,"Set mandatory requirements for how an organization will carry out higher level policies, may change more frequently than policies"
+Procedures,"Detailed, step by step processes which must be followed in certain situations, ideally should provide little ambiguity i.e. monitoring or evidence handling procedures"
+Guidelines,"Provide best practice and recommendations for a given concept. Compliance is not mandatory, guidelines are offered to provide helpful advice."
+Exceptions and Compensating Controls,Need to be governed by a policy framework laying out the specific requirements for receiving an exception and the individual or committee with the authority to approve it
+HIPAA,"Health Insurance Portability and Accountability Act, sets security and privacy laws that affect the healthcare industry"
+PCI DSS,Payment Card Industry Data Security Standard
+GLBA,"Gramm Leach Bliley Act, sets laws for financial institutions."
+SOX,"Sarbanes Oxley Act, sets laws to publicly traded companies and requires these companies have IT systems with a high level of assurance"
+FERPA,"Family Educational Rights and Privacy Act, sets security and privacy controls for educational institutions"
+Cyber Security Frameworks,"Layout the overall framework for developing a cybersecurity program. NIST, ISO 27001, ITIL, COBIT"
+ISO 27001,Information Technology Security Techniques Information Security Management Systems Requirements Standard
+COBIT,Control Objectives for Information and Related Technologies
+Security Control Categories,"Technical, Operational, Managerial"
+Technical Controls,"Enforce CIA using technical controls, i.e. firewalls, IDS, encryption, etc."
+Operational Controls,"Enforce CIA using processes to manage security include access reviews, log monitoring and vulnerability management"
+Managerial Controls,"Procedural controls that focus on risk management, i.e. risk assessments, security planning exercises, incorporation of security into change management"
+Preventive Controls,CompTIA Control Type --  Stop an incident before it occurs
+Detective Controls,CompTIA Control Type -- Identify events that have already occurred
+Corrective Controls,"CompTIA Control Type -- Remediate issues that have already occurred, i.e. restoring from a backup"
+Deterrent Controls,CompTIA Control Type -- Aim to deter and prevent a violation from occurring
+Physical Controls,"CompTIA Control Type -- Security controls in the physical world, i.e. fences lighting, alarms"
+Compensating Controls,CompTIA Control Type -- Controls designed to mitigate the risk associate with exceptions to a security policy
+Audit,Formal review of an organization's security policy
+Assessment ,"Less formal reviews of an organization's security policy, conducted by an organization itself for process improvement"
