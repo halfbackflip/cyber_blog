@@ -56,18 +56,14 @@ In this excercise, select a specific category and then subcategory. I will then 
 </thead>
 <tbody>
   <tr>
-    <td bgcolor="Indigo" style="color:white;"rowspan="5">PROTECT (PR)</td>
-    <td rowspan="5">Awareness and Training
-(PR.AT): The organization’s 
-personnel and partners are 
-provided cybersecurity awareness 
-education and are trained to 
-perform their cybersecurity related duties and responsibilities 
-consistent with related policies, 
-procedures, and agreements.
-</td>
-    <td>PR.AT-1: All users are informed and 
-trained</td>
+    <td bgcolor="Indigo" style="color:white;" rowspan="5">PROTECT (PR)</td>
+    <td rowspan="5">Awareness and Training (PR.AT): The organization’s personnel and partners are 
+    provided cybersecurity awareness education and are trained to 
+    perform their cybersecurity related duties and responsibilities 
+    consistent with related policies, 
+    procedures, and agreements.
+    </td>
+    <td>PR.AT-1: All users are informed and trained</td>
     <td>
         <ul>
             <li>Every user must complete mandatory phishing training</li>
@@ -128,7 +124,7 @@ responsibilities </td>
             <li>A clear process for incident escalation is provided</li>
             <li>All roles are involved in frequent practice excercises to encourage preparedness and improvement</li>
             <li>Roles are flexible and modified when organizational change occurrs</li>
-            <li>>Changes to responsiblities are communicated</li>
+            <li>Changes to responsiblities are communicated</li>
         </ul>
     </td>
   </tr>
@@ -136,8 +132,7 @@ responsibilities </td>
 </table>
 
 ## 16.3 Compliance Auditing Tools
-In this section I will review an aspect of the the Payment Card Industry (PCI) [Data Security Standard]
-(https://www.pcisecuritystandards.org/document_library).
+In this section I will review an aspect of the the Payment Card Industry (PCI) [Data Security Standard](https://www.pcisecuritystandards.org/document_library).
 Specifically, I will analyze the requirements of password construction from section 8.2.3 and how to 
 determine wether an organization is in compliance with this requirement. 
 
