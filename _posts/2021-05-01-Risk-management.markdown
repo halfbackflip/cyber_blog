@@ -8,7 +8,7 @@ published: true
 ---
 
 ## 15.1 Risk Management Strategies
-Risk management consists of four main risk strategies
+Risk management consists of the four main risk strategies below.
 
 <table>
 
@@ -88,7 +88,7 @@ Now that I have conducted a risk assessment, I will look at how the previously i
 * Risk mitigation: Develop several PR strategies and playbooks for handling common reputation events to handle an actual event.
 * Risk avoidance: Drastically reduce enrolment numbers and rely on other sources of cash flow to fund the university.
 * Risk acceptance:  Set aside the ALE amount in budget every year for handling damaging PR events.
-* Risk transference: Is this... possible?
+* Risk transference: Outsource the management of admissions to a third party.
 
 
 ## Glossary

@@ -45,9 +45,10 @@ The framework then breaks these outcomes into categories and subcategories while
 
 In this excercise, select a specific category and then subcategory. Below is a breakdown of how an organization could addresses these subcategories.
 
+<tr bgcolor="grey" style="color:white;">
+
 <table>
-<tbody>
-  <tr bgcolor="black" style="color:white;">
+  <tr bgcolor="grey" style="color:white;">
     <th>Function</th>
     <th>Category</th>
     <th>Subcategory</th>
@@ -126,13 +127,23 @@ responsibilities </td>
         </ul>
     </td>
   </tr>
-</tbody>
 </table>
 
 ## 16.3 Compliance Auditing Tools
-In this section I will review an aspect of the the Payment Card Industry (PCI) [Data Security Standard](https://www.pcisecuritystandards.org/document_library).
-Specifically, I will analyze the requirements of password construction from section 8.2.3 and how to 
+In this section I will review an aspect of the the Payment Card Industry (PCI) [Data Security Standard](https://www.pcisecuritystandards.org/document_library). Specifically, I will analyze the requirements of password construction from section 8.2.3 and how to 
 determine wether an organization is in compliance with this requirement. 
+
+According to section 8.2.3 passwords must contain a minimum length of seven characters and contain both numeric and alphabetic characters. In order to verify these settings there are several measures which can be employed. The first step would be to verify the organisation's password policy. This policy should be an easily accessible and version controlled document. After checking the policy document, the next step is check compliance in all areas the password policy would be employed. 
+
+Verifying the password policy is deployed at the user layer is a key step. Assuming the environment is using Active Directory, the default password policy can be checked with the following powershell command:
+```
+Get-ADDefaultDomainPasswordPolicy
+```
+Depending on the environment, Fine-Grained Password Policies (FGPP), a feature allowing different password policies to be set based on active directory security group members could apply. FGPP password policies can be listed with the following powershell command:
+```
+get-adfinegrainedpasswordpolicy -filter *
+```
+Once passsword complexity is assessed within Active Directory, the next step is to verify password compliance on other platforms. For example, checking network devices, third-party login portals, software tools, mobile devices and application logins. The range of platforms to check here would vary significantly depending on the organisation. 
 
 ## Glossary
 A glossary of all the terms, acronyms and slang I run across for this chapter.
