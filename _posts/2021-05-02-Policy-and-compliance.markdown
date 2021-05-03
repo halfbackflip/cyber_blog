@@ -44,7 +44,7 @@ The framework then breaks these outcomes into categories and subcategories while
 
 In this excercise, select a specific category and then subcategory. Below is a breakdown of how an organization could addresses these subcategories.
 <html>
-  <table>
+  <table bgcolor="White">
     <tr bgcolor="DarkGrey" style="color:white;">
       <td>Function</td>
       <td>Category</td>
