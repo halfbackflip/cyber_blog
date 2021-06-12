@@ -1,5 +1,5 @@
 Term,Definition
-mutlitenancy,when many different customers share access to the same physical resouce pool in a cloud environment
+mutlitenancy,when many different customers share access to the same physical resource pool in a cloud environment
 scoutsuite,multi cloud auditing tool
 pacu,"cloud-focused exploitation framework, i.e. metasploit for the cloud"
 prowler,AWS cloud security configuration testing tool

@@ -2,7 +2,7 @@ Term,Definition
 Active Reconnaissance,"Uses deliberate techniques, i.e. scanning tools in order to perform host enumerations"
 Anomaly Analysis,Looks for differences in expected behaviors
 Creepy,Geolocation tool tha uses social media info and file metadata to build a profile about a person
-Dhcpd.conf,linxu system file displaying dhcp config info
+Dhcpd.conf,linux system file displaying dhcp config info
 Heuristic Analysis,Detects threats based on behavior patterns
 Host Enumeration,Creating a map of an organisation's networks and IT systems
 Hping,Advanced version of the ping utility which allows for the customization of echo requests

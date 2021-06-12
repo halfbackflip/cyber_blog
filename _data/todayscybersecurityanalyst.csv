@@ -22,7 +22,7 @@ Out-of-Band NAC,Leverage the exisiting network for granting and denying access t
 Packet Filtering FW,Rudimentary FW that simply check the characteristcs of each packet without additiona intelligence
 Penetration Testing Phases,NIST divides penetration testing into four phases -- 1. Planning 2. Discovery 3. Attack 4. Reporting
 Reverse Engineering,Working backward from a finished product in order to discover how it works
-Risk,A combination of a thread and a vulnerability
+Risk,A combination of a threat and a vulnerability
 Sandbox,Isolated environment where a malicious application does not have access to other systems
 Sateful FW,In addition to packets; maintain the state of connenctions going through the FW
 SCCM,Microsoft System Center Configuration Manager -- Allows admins to view the patch status of systems and remediate them

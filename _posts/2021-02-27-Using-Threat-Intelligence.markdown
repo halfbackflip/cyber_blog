@@ -17,9 +17,9 @@ example, I will use the 2019 Capital One Data Breach.
 On July 29 2019, Capital One Bank announced a data breach which affected approximately 100 million individuals
 in the USA and 6 million in Canada. The personal information of individuals who applied for Credit Cards was exfiltrated in the breach. The vulnerability leading to the incident was stated by Capital One as a specific configuration vulnerability in their infrastructure. This vulnerability was leveraged by an individual to extract info on March 22 to 23 2019. Capital One was made aware of the breach from an anonymous email to their reponsible disclosure program. Data was encrypted at rest, however the perpetrator was able to decrypt some of the data. Data fields such as Social security numbers and account numbers remained encrypted.
 
-The threat actor was determined to by Paige Thompson, a former Amazon Web Services Engineer. Thompson leveraged a misconfiguration in the bank's ModSecurity Web Application Firewall in order to execute commands on the firewall to exfiltrate the data from Capital One's Amazon S3 buckets. The misconfiguration of the WAF was key in the exfiltration of the data. Specifically, the WAF was assigned excessive permissions which allowed it to read and list the files in any S3 bucket. The type of vulnerability exploited is a "Server Side Request Forgery" or SSRF. This is attack manipulates a server or in this instance the WAF into running unintended commands. The attack then ran an S3 sync command in order to copy the data to their server. Logs from Capital One show Thompson connected several time from both TOR exit nodes and a VPN service in order to cover her tracks.
+The threat actor was determined to be Paige Thompson, a former Amazon Web Services Engineer. Thompson leveraged a misconfiguration in the bank's ModSecurity Web Application Firewall in order to execute commands on the firewall to exfiltrate the data from Capital One's Amazon S3 buckets. The misconfiguration of the WAF was key in the exfiltration of the data. Specifically, the WAF was assigned excessive permissions which allowed it to read and list the files in any S3 bucket. The type of vulnerability exploited is a "Server Side Request Forgery" or SSRF. This is attack manipulates a server or in this instance the WAF into running unintended commands. The attack then ran an S3 sync command in order to copy the data to their server. Logs from Capital One show Thompson connected several time from both TOR exit nodes and a VPN service in order to cover her tracks.
 
-In regards to evidence, Thompson was confirmed to have a list of over 700 AWS buckets. Logs at the bank were also able to show attempted connections from TOR exit nodes which listed bucket content. Other commands executed on the buckets originated from a VPN service which Thompson subscribes too. After the breach, Thompson also posted to several public forums, i.e. Slack and GitHub boasting about the breach. 
+In regards to evidence, Thompson was confirmed to have a list of over 700 AWS S3 Storage buckets. Logs at the bank were also able to show attempted connections from TOR exit nodes which listed bucket content. Other commands executed on the buckets originated from a VPN service which Thompson subscribes too. After the breach, Thompson also posted to several public forums, i.e. Slack and GitHub boasting about the breach. 
 Thompson was arrested by the FBI. During the raid, FBI agents seized several storage devices containing copies of the breached data
 
 
@@ -135,7 +135,7 @@ The dashboard will then begin to populate with threat feeds!
 A glossary of all the terms, acronyms and slang I run across for this chapter.
 
 <table>
-{% for item in site.data.todayscybersecurityanalyst %}
+{% for item in site.data.usingthreatintelligence %}
     <tr>
         <td>{{item.Term}}</td> 
         <td>{{item.Definition}}</td>

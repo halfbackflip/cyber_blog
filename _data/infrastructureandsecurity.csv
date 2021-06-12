@@ -1,7 +1,7 @@
 Term,Definition
 Layered Security,Approach where each layer has additional protections preventing a flaw in another layer from allowing an attacker access
 Zero Trust,Each action request and allowed must be verified before allowing to occur
-Air Gap,Ensuring there is not connection at all between infrastructure\
+Air Gap,Ensuring there is not connection at all between infrastructure
 SDN,Software Defined Networking; Makes networks programmable and allows for central control of networks
 Containerization,Allows applications to run in their own isolated environments with their own required components
 Asset Management,Knowing what assets you and their current state

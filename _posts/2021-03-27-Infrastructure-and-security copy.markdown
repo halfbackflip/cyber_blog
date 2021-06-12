@@ -36,7 +36,7 @@ In order to map vulnerable parts of the application which are accessible over th
 
 These tools will allow you to map entries points such as User interface (UI) forms and fields, HTTP headers and cookies, APIs, files, databases, local storage, email, messaging, runtime arguements and more.
 
-Two final important points areas to consider when developing conculusions are backups and an application's attack surface growing over time. Backups of code, data and infraastructure are essential for a quick recovery in the event of any attack. Ideally multiple backups should be available, both online and offline. Second, application attack surfaces often increase over time. Proactive audits over time should be used to identify exposed parts of an application which are no longer used and can be removed.
+Two final important points areas to consider when developing conclusions are backups and an application's attack surface growing over time. Backups of code, data and infraastructure are essential for a quick recovery in the event of any attack. Ideally multiple backups should be available, both online and offline. Second, application attack surfaces often increase over time. Proactive audits over time should be used to identify exposed parts of an application which are no longer used and can be removed.
 
 ## Building the Web App
 

@@ -48,7 +48,7 @@ and explains the underlying equations.
 
 The equations are summarized as:
 
-<div style="font-family: Times New Roman, font-size: 10">
+```
 CVSS v3.1 Equations
 
 The CVSS v3.1 equations are defined below.
@@ -98,7 +98,7 @@ The Modified Exploitability sub score is,
     8.22 × 𝑀. 𝐴𝑡𝑡𝑎𝑐𝑘𝑉𝑒𝑐𝑡𝑜𝑟 × 𝑀. 𝐴𝑡𝑡𝑎𝑐𝑘𝐶𝑜𝑚𝑝𝑙𝑒𝑥𝑖𝑡𝑦 × 𝑀. 𝑃𝑟𝑖𝑣𝑖𝑙𝑒𝑔𝑒𝑅𝑒𝑞𝑢𝑖𝑟𝑒𝑑 × 𝑀. 𝑈𝑠𝑒𝑟𝐼𝑛𝑡𝑒𝑟𝑎𝑐𝑡𝑖𝑜n
 
 4 Where “Round up” is defined as the smallest number, specified to one decimal place, that is equal to or higher than its input. For example, Round up (4.02) is 4.1; and Round up (4.00) is 4.0.
-</div>
+```
 
 ## Activity 5.3: Remediate a Vulnerability
 In the final step, I will select a vulnerabilitiy and remediate it. 
