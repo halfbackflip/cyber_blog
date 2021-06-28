@@ -50,7 +50,7 @@ nmap -PS -p80 10.0.2.0/24
 map --scan-delay 10s -p22,23,80  10.0.2.4
 ```
 * Issues a 10 second scan delay between ports when scanning
-* Helps avoid detection
+* Helps avoid detection, although can still be picked up by an IPS
 ![nmap practice](\assets\img\nmappractice5.jpg)
 
 ```
